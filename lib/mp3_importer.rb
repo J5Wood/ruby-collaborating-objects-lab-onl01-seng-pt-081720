@@ -9,7 +9,7 @@ class MP3Importer
 
   def files
     binding.pry
-    Dir[path]
+    Dir.entries(folder)
   end
 
 

@@ -8,7 +8,7 @@ class MP3Importer
 
 
   def files
-    Dir.entries(folder)
+    Dir.entries(path)
   end
 
 
